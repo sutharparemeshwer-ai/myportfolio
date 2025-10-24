@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paremeshwer Suthar - Web Developer Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Devicon CSS for tech icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://e7.pngegg.com/pngimages/637/178/png-clipart-p-logo-publix-letter-logo-icons-logos-emojis-supermarket-logos-thumbnail.png" alt=" Logo" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about" data-section="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects" data-section="projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills" data-section="skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-section="contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button id="theme-toggle" class="btn btn-outline-secondary" style="border: none;" aria-label="Toggle light/dark theme">☀️</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <!-- Animated Background Shape -->
+            <div class="hero-background-shape"></div>
+            <div>
+                <h1>Hi, my name is</h1>
+                <h2>Paremeshwer Suthar.</h2>
+                <p>I build things for the web.</p>
+                <a href="#projects" class="btn btn-custom mt-4">Check out my work!</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <!-- Background Graphic -->
+            <div class="about-background-graphic"></div>
+            <h2 class="section-title">About Me</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Hello! I'm Paremeshwer, a 19-year-old front-end developer currently pursuing a B.Com in Computer Science. I have a strong passion for building beautiful and functional web experiences, blending my web development skills with a solid understanding of management principles. I love bringing ideas to life in the browser.</p>
+                    <p>Here are a few technologies I've been working with recently:</p>
+                    <ul class="list-unstyled row tech-list">
+                        <li class="col-md-6">› HTML & CSS</li>
+                        <li class="col-md-6">› JavaScript</li>
+                        <li class="col-md-6">› Bootstrap</li>
+                        <li class="col-md-6">› Node.js</li>
+                        <li class="col-md-6">› AI Tools (like Gemini)</li>
+                        <li class="col-md-6">› Git</li>
+                        <li class="col-md-6">› github</li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-start">
+                    <div class="about-image-container">
+                        <!-- Your Image -->
+                        <img src="mypic.jpeg" class="img-fluid" alt="Paremeshwer Suthar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Toolvers</h5>
+                            <p class="card-text">A versatile collection of over 100 online tools, providing solutions for various daily tasks in one convenient place.</p>
+                            <div>
+                                <span class="badge badge-custom me-1">HTML</span>
+                                <span class="badge badge-custom me-1">CSS</span>
+                                <span class="badge badge-custom">JavaScript</span>
+                            </div>
+                            <a href="https://sutharparemeshwer-ai.github.io/100-tools-in-one-/#" target="_blank" class="btn btn-sm btn-outline-light mt-3 me-2 btn-success">Live Demo</a>
+                            <a href="https://github.com/sutharparemeshwer-ai/100-tools-in-one-" target="_blank" class="btn btn-sm btn-outline-light mt-3 btn-success">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Playdit</h5>
+                            <p class="card-text">A tool built with Node.js that utilizes a Play Store scraper API to search for and retrieve information about any application.</p>
+                             <div>
+                                <span class="badge badge-custom me-1">Node.js</span>
+                                <span class="badge badge-custom me-1">JavaScript</span>
+                                <span class="badge badge-custom">API</span>
+                            </div>
+                            <a href="https://github.com/sutharparemeshwer-ai/plydit/deployments" target="_blank" class="btn btn-sm btn-outline-light mt-3 btn-success">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">withme</h5>
+                            <p class="card-text">A travel website designed to help users explore new destinations and plan their next journey with ease.</p>
+                             <div>
+                                <span class="badge badge-custom me-1">HTML</span>
+                                <span class="badge badge-custom me-1">CSS</span>
+                                <span class="badge badge-custom">Netlify</span>
+                            </div>
+                            <a href="https://travelwithparemeshwer.netlify.app/" target="_blank" class="btn btn-sm btn-outline-light mt-3 me-2 btn-success">Live Demo</a>
+                            <a href="https://github.com/sutharparemeshwer-ai/myweb" target="_blank" class="btn btn-sm btn-outline-light mt-3 btn-success">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-postgresql-plain-wordmark colored"></i>
+                    <p>APIs</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-git-plain-wordmark colored"></i>
+                    <p>Git</p>
+                </div>
+                <div class="skill-item">
+                    <i class="devicon-github-original-wordmark colored"></i>
+                    <p>GitHub</p>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="text-center">
+            <h2 class="section-title mx-auto" style="width: fit-content;">Get In Touch</h2>
+            <p class="lead" style="max-width: 600px; margin: 0 auto 30px;">I'm currently open to new opportunities. Whether you have a question or just want to say hi, my inbox is always open. I'll do my best to get back to you!</p>
+            <a href="mailto:sutharparemeshwer@gmail.com" class="btn btn-custom btn-lg">Say Hello</a>
+            <div class="social-links mt-4">
+                <a href="https://www.linkedin.com/in/paremeshwer-suthar-04b515388" target="_blank" aria-label="LinkedIn" class="social-link">
+                    <i class="devicon-linkedin-plain"></i>
+                </a>
+                <a href="https://github.com/sutharparemeshwer-ai" target="_blank" aria-label="GitHub" class="social-link">
+                    <i class="devicon-github-original"></i>
+                </a>
+                <a href="mailto:sutharparemeshwer@gmail.com" aria-label="Email" class="social-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm7.437 1.37L16 4.697v7.104l-5.803-3.558L14.198 10.067Z"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Buy Me a Coffee Section -->
+        <section id="support" class="text-center">
+            <h2 class="section-title mx-auto" style="width: fit-content;">Support My Work</h2>
+            <p class="lead" style="max-width: 600px; margin: 0 auto 30px;">If you like what I do, consider supporting me with a coffee. It helps me to keep creating and learning!</p>
+            <a href="https://buymeacoffee.com/suthar_paremeshwer" target="_blank" class="btn-bmc">
+                <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Paremeshwer Suthar. Built with Bootstrap & CSS.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
