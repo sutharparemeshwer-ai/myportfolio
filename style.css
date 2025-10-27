@@ -121,6 +121,17 @@ body {
 
 .btn-custom:hover {
     background-color: rgba(100, 255, 218, 0.1);
+    
+}
+.btn-pro {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pro:hover {
+    border: 2px solid var(--accent-color);
 }
 
 section {
@@ -456,4 +467,5 @@ body.light-theme .skill-item {
 
 .btn-bmc:hover {
     transform: scale(1.05);
+    
 }
